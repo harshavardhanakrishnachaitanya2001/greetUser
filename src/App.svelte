@@ -1,4 +1,5 @@
 <script>
+	console.log("hellow there")
 	let name='';
 	let displayName;
 	function handleChange(e){
@@ -15,7 +16,7 @@
 	<h1>Welcome user website</h1>
 	<input type='text' on:change={handleChange} value={name} placeholder='Name of visitor' required />
 	<button on:click={handleClick}>Greet</button>
-	<p class='displayData'>{displayName?'Welcome ' + displayName:''}</p>
+	<p class='displayData'>{displayName?'Welcome!!!!! ' + displayName:''}</p>
 </div>
 
 <style>
